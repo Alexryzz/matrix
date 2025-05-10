@@ -16,5 +16,23 @@ public class Main {
             }
         }
 
+        System.out.println();
+        System.out.println("Task 2");
+        // Task 2
+        int count1 = 1;
+        int[][] array1 = new int[5][5];
+        for (int i = 0; i < array1.length; i++){
+            for (int j = 0; j < count1; j++) {
+                array1[i][j] = 1;
+            }
+            count1++;
+        }
+
+        for (int[] ints : array1) {
+            for (int anInt : ints){
+                System.out.print(anInt + " ");
+            }
+            System.out.println();
+        }
     }
 }
