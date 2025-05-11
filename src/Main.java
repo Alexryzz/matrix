@@ -34,5 +34,21 @@ public class Main {
             }
             System.out.println();
         }
+
+        // Task 3
+        System.out.println();
+        System.out.println("Task 3");
+
+        for(int[] ints : array1){
+            for(int anInt : ints){
+                if (anInt == 1){
+                    System.out.print(anInt);
+                }
+                else {
+                    break;
+                }
+            }
+            System.out.println();
+        }
     }
 }
